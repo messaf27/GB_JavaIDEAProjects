@@ -60,6 +60,4 @@ public class Main {
                     "%s\n", catProd.getName(), catProd);
         }
     }
-
-
 }
