@@ -7,10 +7,6 @@ public class Basket {
     public Basket() {
     }
 
-    public void takeProduct(Product p)
-    {
-        this.products.add(p);
-    }
     @Override
     public String toString(){
         int index = 0;
@@ -21,4 +17,10 @@ public class Basket {
         }
         return  out.toString();
     }
+
+    public void addProduct(Product p) {
+        this.products.add(p);
+    }
+
+
 }
